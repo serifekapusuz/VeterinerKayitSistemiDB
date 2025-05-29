@@ -45,3 +45,15 @@ Aşağıdaki tablolar kullanılmıştır:
 - ✅ Randevuya bağlı tedavi ekleme
 - ✅ Aşı kaydı oluşturma ve sonraki tarih planlama
 - ✅ Tek bir Windows Form üzerinde sekmeli (TabControl) yapı
+
+
+## Notlar
+Projede TabControl ile tüm işlemler tek form üzerinden yapılmaktadır.
+
+Her sekmede ilgili tabloya ait: ekle, sil, listele işlemleri yapılabilmektedir.
+
+Aşı ve tedavi için ComboBox'lar ile hayvan seçimleri yapılır.
+
+Tüm işlemler SqlParameter ile güvenli biçimde yapılmıştır.
+
+
